@@ -1,13 +1,11 @@
 
-
-const imagesToLoad = document.querySelectorAll("img[data-src]");
-
-const imgOptions = {
+imagesToLoad = document.querySelectorAll("img[data-src]");
+imgOptions = {
     threshold: 1,
     rootMargin: "0px 0px 100px 0px"
 };
 
-const loadImages = (image) => {
+ loadImages = (image) => {
     image.setAttribute('src', image.getAttribute('data-src'));
     image.onload = () => {
         image.removeAttribute('data-src');};
@@ -31,4 +29,3 @@ const loadImages = (image) => {
       loadImages(img);
     });
   }
-  
