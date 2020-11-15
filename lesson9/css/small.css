@@ -185,3 +185,23 @@ nav {
     border: 1px solid black;
     border-radius: 3px;
 }
+div.towns{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    text-align: center;
+    max-width: 100%;
+  }
+  .city{
+    background-color: #2e6ca3;
+  }
+  .towns:nth-child(odd) img {
+    max-width: 300px;
+    grid-column: 2;
+  }
+
+  .herodiv {
+    margin: auto;
+    position: relative;
+    width: 100%;
+  }
