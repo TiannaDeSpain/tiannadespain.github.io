@@ -193,7 +193,7 @@ div.towns{
     max-width: 100%;
   }
   .city{
-    background-color: #2e6ca3;
+    background-color: #f5f1d8;
   }
   .towns:nth-child(odd) img {
     max-width: 300px;
