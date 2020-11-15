@@ -8,13 +8,15 @@
   }
 
   h2 {
-    font-size: 2rem;
-  }
-
-  h3 {
     font-size: 1.5rem;
   }
 
+  h3 {
+    font-size: 1rem;
+  }
+  p{
+    font-size: .7rem;
+  }
   #logo {
     max-width: 15%;
     float: left;
@@ -98,4 +100,45 @@
   #address {
     text-align: left;
   }
+  div.towns{
+    margin: 2rem;
+    
+  }
+ section.city{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr;
+   padding: 2rem;
+ }
+ div.towns section:nth-of-type(odd) p, div.towns section:nth-of-type(odd) h3, div.towns section:nth-of-type(odd) h2{
+  grid-column: 1;
 }
+
+div.towns section:nth-of-type(even) p, div.towns section:nth-of-type(oven) h3, div.towns section:nth-of-type(even) h2{
+  grid-column: 2;
+}
+
+div.towns section:nth-of-type(odd) img {
+  grid-column: 2;
+  grid-row: 1/10;
+  justify-self: center;
+  align-self: center;
+}
+
+div.towns section:nth-of-type(even) img {
+  grid-column: 1;
+  grid-row: 1/10;
+  justify-self: center;
+  align-self: center;
+}
+
+
+div.towns section h2 {
+  align-self: end;
+  margin: 0;
+}
+#hero {
+  width: 98%;
+}
+}
+
