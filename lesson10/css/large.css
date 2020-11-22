@@ -1,0 +1,121 @@
+@media only screen and (min-width: 45em) {
+
+  body,
+  #hero {
+    max-width: 100%;
+  }
+
+  #logo {
+    max-width: 15%;
+    float: left;
+    padding: 10px 10px 10px 130px;
+    max-height: 100px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  main {
+    max-width: 64em;
+  }
+
+  /* Hero box */
+  .herodiv {
+    width: 90%;
+  }
+
+  #hero {
+    width: 100%;
+  }
+
+
+
+  /* Weather summary box */
+  .weathersum {
+    right: 50%;
+    width: 18em;
+    height: 10em;
+  }
+  #current,
+  #high,
+  #chill,
+  #humid,
+  #speed,
+  .weatherinfo,
+  p {
+    font-size: 20px;
+  }
+ 
+
+  /* five day weather box */
+
+  .fiveday {
+    display: block;
+    margin: 10px auto;
+    position: relative;
+    height: 175px;
+    width: 90%;
+  }
+
+  .weathericon {
+    max-width: 70px;
+  }
+
+
+  /* Article box */
+
+
+  #janice {
+    max-width: 25em;
+
+  }
+
+  /* Contact info box */
+  .social {
+    display: inline;
+    width: 45px;
+  }
+
+  #socialiconsdiv {
+    width: 270px;
+    margin: auto;
+    max-width: 100%;
+  }
+
+  .contactinfo {
+    height: 330px;
+  }
+
+  .contact {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .contacticon {
+    width: 15px;
+  }
+
+  #map {
+    display: inline-flex;
+    float: left;
+    width: 30%;
+    margin: 1.5em;
+    border: 1px solid black;
+    box-shadow: 0 0 15px #142e46;
+  }
+
+  #address {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+
+}

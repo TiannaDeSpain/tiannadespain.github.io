@@ -1,0 +1,183 @@
+@media only screen and (min-width: 32.5em) {
+  body {
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  #logo {
+    max-width: 15%;
+    float: left;
+    padding: 10px 10px;
+    max-height: 100px;
+  }
+
+
+
+  /* NAV  */
+
+  nav ul {
+    display: flex;
+  }
+
+  nav {
+    max-width: 100%;
+  }
+
+  nav ul li {
+    flex: 1 1 100%;
+  }
+
+  .navigation {
+    display: flex;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+  }
+
+  .navigation a {
+    text-align: center;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+
+
+  /* Hero box */
+  #hero {
+    width: 98%;
+  }
+
+
+  /* weather box */
+
+  .weathersum {
+    position: absolute;
+    background-color: #f3c155;
+    border: 1px solid #2e6ca3;
+    padding: 1rem; 
+    box-shadow: 0 0 30px #142e46; 
+    opacity: .8; 
+    z-index: 100; 
+    width: 13em; 
+    height: 8em; 
+    margin-left: 0%; 
+    top: 12%;
+    right: 45%;
+  }
+
+  #current,
+  #high,
+  #chill,
+  #humid,
+  #speed,
+  .weatherinfo,
+  p {
+    font-size: 16px;
+  }
+
+  #weatherhead {
+    font-size: 20px;
+  }
+
+
+  /* five day weather box */
+
+  .fiveday {
+    display: block;
+    margin: 10px auto;
+    position: relative;
+    height: 175px;
+    width: 90%;
+  }
+
+  th,
+  td {
+    text-align: center;
+    padding: .2em;
+    width: 2em;
+  }
+
+  table,
+  th,
+  td {
+    border: 3px solid #2e6ca3;
+    border-collapse: collapse;
+    background-color: #f5f1d8;
+  }
+
+  table {
+    width: 80%;
+    margin: auto;
+  }
+
+  .weathericon {
+    max-width: 50px;
+  }
+  .article, #hero, .contactinfo{
+    max-width: 95%;
+  }
+
+  /* Article  box */
+  #janice {
+    max-width: 55%;
+    float: right;
+    margin: 1.5em 1em;
+  }
+
+
+
+
+  /* Contact box */
+  .social {
+    display: inline;
+    width: 45px;
+  }
+
+  #socialiconsdiv {
+    display: flex;
+    width: 165px;
+    margin: 0;
+    padding: 5px;
+  }
+
+  .contactinfo {
+    height: 300px;
+  }
+
+  .contact {
+    display: block;
+    text-align: left;
+  }
+
+  .contacticon {
+    width: 15px;
+  }
+
+  #map {
+    display: inline-flex;
+    float: left;
+    width: 40%;
+    margin: 1.5em;
+    border: 1px solid black;
+    box-shadow: 0 0 15px #142e46;
+  }
+
+  #address {
+    text-align: left;
+  }
+}

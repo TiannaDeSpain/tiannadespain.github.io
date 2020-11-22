@@ -1,0 +1,298 @@
+#announcment {
+  display: none;
+  font-family: 'Barlow', sans-serif;
+  background-color: #f5f1d8;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+#saturday {
+  margin: 0;
+  padding: .4em;
+}
+
+body {
+  margin: auto;
+  background: #90b4d8;
+}
+
+p,
+#currentDate,
+#year,
+#lesson3footer,
+a,
+td {
+  font-family: 'Barlow', sans-serif;
+}
+
+a {
+  padding: 3px;
+  font-size: 15px;
+}
+
+header,
+footer {
+  background-color: #f3c155;
+}
+
+header {
+  margin-top: 10px;
+  height: 125px;
+}
+
+h1,
+h2,
+h3,
+h4,
+th {
+  font-family: 'Montserrat', sans-serif;
+
+  margin: .35rem;
+}
+
+
+h3,
+#address,
+footer,
+#title {
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.75rem;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+#currentDate,
+#year,
+#lesson3footer,
+.byuiLink {
+  font-size: 1rem;
+  display: inline-block;
+}
+
+p {
+  margin: 12px;
+}
+
+footer {
+  padding: 5px 50px 15px;
+}
+
+h2,
+h3,
+h4,
+a {
+  align-self: center;
+}
+
+main {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#logo {
+  max-width: 20%;
+  float: left;
+  padding: 10px 7%;
+}
+
+/* NAV */
+nav {
+  margin: 0 auto;
+  max-width: 760px;
+  background-color: #2e6ca3;
+}
+
+.navigation {
+  list-style: none;
+  padding: 0;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-align: left;
+  text-decoration: none;
+  color: #f5f1d8;
+  font-weight: 700;
+}
+
+.navigation a:hover {
+  color: black;
+  background-color: #f5f1d8;
+}
+
+.responsive li {
+  display: block;
+}
+
+.active {
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+
+/* END NAV */
+
+h1,
+h2 {
+  margin: 0;
+}
+
+/* Hero Box*/
+
+
+.herodiv {
+  margin: auto;
+  position: relative;
+  width: 100%;
+}
+
+#hero {
+  max-width: 100%;
+  width: 100%;
+}
+
+/* Weather summary box */
+#current,
+#high,
+#chill,
+#humid,
+#speed {
+  padding: 0;
+}
+
+.weathersum {
+  display: block;
+  background-color: #f3c155;
+  border: 1px solid #2e6ca3;
+  padding: 1rem;
+  z-index: 100;
+}
+
+hr {
+  border: 1px solid #2e6ca3;
+}
+
+p.weatherinfo {
+  margin: 0;
+  padding: 0px;
+  padding-right: 10px;
+}
+
+#current,
+#high,
+#chill,
+#humid,
+#speed,
+.weatherinfo {
+  font-size: 12px;
+}
+
+#weatherhead {
+  font-size: 16px;
+}
+
+/* Five day box  */
+.fiveday {
+  display: none;
+}
+
+.article,
+.contactinfo {
+  display: block;
+  margin: 10px auto;
+  position: relative;
+  width: 100%;
+  border: .5px solid #142e46;
+}
+
+/* Article Box */
+.article {
+  background-color: #f5f1d8;
+  z-index: 1;
+}
+
+#articlecontent {
+  padding: 1em;
+}
+
+#articletitle {
+  padding-top: 1em;
+}
+
+#janice {
+  width: 75%;
+  margin: 1.5em auto;
+  box-shadow: 0 0 15px #142e46;
+}
+
+#byline {
+  color: #2e6ca3;
+  padding-left: 1em;
+}
+
+/* Contact Info  */
+.social {
+  display: inline-block;
+  width: 64px;
+}
+
+#socialiconsdiv {
+  width: 270px;
+  margin: auto;
+  max-width: 100%;
+}
+
+.contactinfo {
+  height: 250px;
+  background-color: #f0ac17;
+}
+
+.contact,
+.contacticon {
+  display: inline-block;
+}
+
+.contacticon {
+  width: 18px;
+}
+
+.contact {
+  padding: 5px;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+#map {
+  display: none;
+}
+
+#contacttitle,
+#phoneandemail {
+  padding: .5em
+}
