@@ -15,7 +15,8 @@
     font-size: 1.5rem;
   }
 
-  p, ul {
+  p,
+  ul {
     font-size: .7rem;
   }
 
@@ -25,30 +26,38 @@
     padding: 10px 10px;
     max-height: 100px;
   }
+
   #name,
   #email,
-  #tel{
+  #tel {
     width: 50%;
   }
-  #stormdate, 
+
+  #stormdate,
   #zip,
   #stormtype,
-  #city{
+  #city {
     width: 25%;
     min-width: 170px;
   }
-  input[list='stormtype']{
+
+  input[list='stormtype'] {
     width: 25%;
   }
-  .griddivs{
+
+  .griddivs {
     max-height: 14em;
   }
 
-  #gallery{
+  #gallery {
     grid-template-columns: 1fr 1fr;
   }
+
   /* Article  box */
-  #janice,#garrett, #jessica, #henry {
+  #janice,
+  #garrett,
+  #jessica,
+  #henry {
     max-width: 55%;
     float: left;
     margin: 1.5em 1em;
@@ -169,6 +178,7 @@
   #hero {
     width: 98%;
   }
+
   /* Contact box */
   .social {
     display: inline;
@@ -207,7 +217,8 @@
   #address {
     text-align: left;
   }
-/* TOWNS JSON FILE ORDERING*/
+
+  /* TOWNS JSON FILE ORDERING*/
   div.city {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -239,21 +250,26 @@
     justify-self: center;
     align-self: center;
   }
+
   div.towns div h2 {
     align-self: end;
     margin: 0;
   }
 
-    /* END TOWNS JSON FILE ORDERING*/
+  /* END TOWNS JSON FILE ORDERING*/
   textarea {
     width: 90%;
     height: 150px;
   }
-  #submit{
+
+  #submit {
     font-family: 'Montserrat', sans-serif;
     width: 15%;
     margin: 4px 25%;
     min-width: 200px;
   }
-  input[type='radio']{ transform: scale(1.5); }
+
+  input[type='radio'] {
+    transform: scale(1.5);
+  }
 }

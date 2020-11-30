@@ -1,4 +1,6 @@
-#announcment, #fhAnnouncment, #ssAnnouncment {
+#announcment,
+#fhAnnouncment,
+#ssAnnouncment {
   display: none;
   font-family: 'Barlow', sans-serif;
   background-color: #f5f1d8;
@@ -240,7 +242,8 @@ p.weatherinfo {
 }
 
 /* Article Box */
-.article, #events{
+.article,
+#events {
   background-color: #f5f1d8;
   z-index: 1;
 }
@@ -254,7 +257,10 @@ p.weatherinfo {
   padding-left: 1rem;
 }
 
-#janice, #garrett, #jessica, #henry {
+#janice,
+#garrett,
+#jessica,
+#henry {
   width: 75%;
   margin: 1.5em auto;
   box-shadow: 0 0 15px #142e46;
@@ -264,8 +270,9 @@ p.weatherinfo {
   color: #2e6ca3;
   padding-left: 1em;
 }
-/*event box*/ 
-#events{
+
+/*event box*/
+#events {
   background-color: #f5f1d8;
   padding-top: 2em;
   padding-bottom: 2em;
@@ -291,9 +298,9 @@ p.weatherinfo {
 
 #contacttitle {
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 600;
   margin-left: 25px;
-  padding-top:.5em;
+  padding-top: .5em;
 }
 
 .contact,
@@ -333,26 +340,32 @@ p.weatherinfo {
   border: 1px solid black;
   border-radius: 3px;
 }
+
 /* TOWNS JSON FILE ORDERING*/
-div.towns{
+div.towns {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 2rem;
 }
+
 .city *,
-.griddivs *{
+.griddivs * {
   text-align: center;
 }
-.city{
+
+.city {
   background-color: #f3c155;
 }
-.towns{
+
+.towns {
   width: 100%
 }
+
 .towns:nth-child(odd) img {
   max-width: 300px;
   grid-column: 2;
 }
+
 /* END TOWNS JSON FILE ORDERING*/
 
 img[data-src] {
@@ -457,8 +470,7 @@ input[type='radio'] {
 
 button,
 #sunidahofooter,
-#footer
-div#button {
+#footer div#button {
   text-align: center;
 }
 
@@ -497,11 +509,12 @@ fieldset {
   text-align: center;
 }
 
-ul{
+ul {
   padding-left: 15%
 }
 
-#welcome{
+#welcome {
   padding: 1em;
   text-align: center;
+  font-weight: 500;
 }

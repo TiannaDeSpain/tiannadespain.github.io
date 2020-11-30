@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -35,19 +36,18 @@
     <main>
         <h2 id="welcome">Welcome to Sun Idaho!</h2>
         <div class="herodiv">
-            <picture > 
-                <source  srcset="images/home800.jpg" media="(min-width: 500px) and (max-width: 800px)">
-                <source  srcset="images/home1100.jpg" media="(min-width: 800px)">
+            <picture>
+                <source srcset="images/home800.jpg" media="(min-width: 500px) and (max-width: 800px)">
+                <source srcset="images/home1100.jpg" media="(min-width: 800px)">
                 <img id="hero" alt="the rolling hills of idaho" src="images/home500.jpg">
             </picture>
 
         </div>
-       
+
         <div class="towns">
         </div>
 
-        <div class="article"> <img id="henry" alt="A man with a cup of coffee posing by a lake."
-                src="images/henry.jpg">
+        <div class="article"> <img id="henry" alt="A man with a cup of coffee posing by a lake." src="images/henry.jpg">
             <h2 id="articletitle">Article</h2>
             <p id="byline"> By Henry Johnson</p>
             <p id="articlecontent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quis in excepturi
@@ -57,7 +57,8 @@
                 necessitatibus ullam, perspiciatis, culpa id quidem optio, earum unde officiis itaque? Animi doloremque
                 ullam maiores excepturi doloribus dolor temporibus. Lorem ipsum dolor, sit amet consectetur adipisicing
                 elit. Ad magni atque nemo vel? Expedita perferendis fuga quia aliquam pariatur quae officiis dolore,
-                repellat architecto, laboriosam quo quisquam? Deserunt, dolor non? Ad magni atque nemo vel? Expedita perferendis fuga quia aliquam pariatur quae officiis dolore,
+                repellat architecto, laboriosam quo quisquam? Deserunt, dolor non? Ad magni atque nemo vel? Expedita
+                perferendis fuga quia aliquam pariatur quae officiis dolore,
                 repellat architecto, laboriosam quo quisquam? Deserunt, dolor non?</p>
         </div>
         <div class="contactinfo">
@@ -79,21 +80,17 @@
     </main>
     <footer>
         <p id="sunidahofooter">
-            &#xa9; Sun Idaho | Weather data from OpenWeatherMap | Tianna DeSpain | <a class="wireframes" href="home-wireframe.html">Wireframes</a>
+            &#xa9; Sun Idaho | Weather data from OpenWeatherMap | Tianna DeSpain | <a class="wireframes"
+                href="home-wireframe.html">Wireframes</a>
         </p>
         <div id="currentDate"></div>
     </footer>
+
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/script.js"></script>
     <script src="js/towns.js"></script>
     <script src="js/observe.js"></script>
-    <script>
-        WebFont.load({
-            google: {
-                families: ['Barlow family', 'Montserrat family']
-            }
-        });
-    </script>
+    <script src="js/webfontload.js"></script>
 </body>
 
 </html>
