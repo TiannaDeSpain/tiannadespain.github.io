@@ -41,7 +41,6 @@
     width: 25%;
   }
   .griddivs{
-   
     max-height: 14em;
   }
 
@@ -208,13 +207,10 @@
   #address {
     text-align: left;
   }
-
- 
-
+/* TOWNS JSON FILE ORDERING*/
   div.city {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
     padding: 2rem;
   }
 
@@ -243,12 +239,12 @@
     justify-self: center;
     align-self: center;
   }
-
-
   div.towns div h2 {
     align-self: end;
     margin: 0;
   }
+
+    /* END TOWNS JSON FILE ORDERING*/
   textarea {
     width: 90%;
     height: 150px;

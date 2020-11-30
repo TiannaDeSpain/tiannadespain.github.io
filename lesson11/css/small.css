@@ -173,7 +173,6 @@ h2 {
 
 /* Hero Box*/
 
-
 .herodiv {
   margin: auto;
   position: relative;
@@ -334,15 +333,12 @@ p.weatherinfo {
   border: 1px solid black;
   border-radius: 3px;
 }
-
-div.towns {
+/* TOWNS JSON FILE ORDERING*/
+div.towns{
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 2rem;
-  text-align: center;
-  width: auto;
 }
-
 .city *,
 .griddivs *{
   text-align: center;
@@ -350,21 +346,14 @@ div.towns {
 .city{
   background-color: #f3c155;
 }
-
-.towns {
-  width: 95%
+.towns{
+  width: 100%
 }
-
 .towns:nth-child(odd) img {
   max-width: 300px;
   grid-column: 2;
 }
-
-.herodiv {
-  margin: auto;
-  position: relative;
-  width: 100%;
-}
+/* END TOWNS JSON FILE ORDERING*/
 
 img[data-src] {
   filter: blur(0.2em);
@@ -510,4 +499,9 @@ fieldset {
 
 ul{
   padding-left: 15%
+}
+
+#welcome{
+  padding: 1em;
+  text-align: center;
 }
