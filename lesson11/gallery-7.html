@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <title>Weather Gallery Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Tianna DeSpain">
+    <meta name="description" content="Image Gallery of Weather Images">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+        <img id="logo" alt="Blue shape of Idaho State infront of a yellow sun." src="images/sunidaho.jpg">
+        <h1>Sun Idaho</h1>
+        <h4 id="motto"><em>Exploring every nook and rill!</em></h4>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="menu" href="#">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston-10.html">Preston</a></li>
+            <li><a href="sodasripngs.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li class="active"><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 id="title"> Gallery</h2>
+        <div id="gallary">
+            <div class="griddivs" id="divA">
+                <picture>
+                    <img class="griditems" alt="Example of clear sky" src='images/placeholder.jpg' data-src="images/clear.jpg">  
+                </picture>
+                <p>Clear Skys </p>
+            </div>
+            <div class="griddivs" id="divB">
+                <picture>
+                    <img class="griditems" alt="example of some light fluffly clouds" src='images/placeholder.jpg' data-src="images/clouds.jpg">  
+                </picture>
+                <p>Light Clouds</p>
+            </div>
+            <div class="griddivs" id="divC">
+                <picture>
+                    <img class="griditems" alt="example of overcast weather" src='images/placeholder.jpg' data-src="images/cloudy.jpg">  
+                </picture>
+                <p>Overcast</p>
+            </div>
+            <div class="griddivs" id="divD">
+                <picture>
+                    <img  class="griditems" alt="example of foggy weather" src='images/placeholder.jpg' data-src="images/foggy.jpg">  
+                </picture>
+                <p>Foggy</p>
+            </div>
+            <div class="griddivs" id="divE">
+                <picture>
+                    <img class="griditems" alt="a summer haboob" src='images/placeholder.jpg' data-src="images/haboob.jpg">  
+                </picture>
+                <p>Haboob</p>
+            </div>
+            <div class="griddivs" id="divF">
+                <picture>
+                    <img class="griditems" alt="a storm rolling in" src='images/placeholder.jpg' data-src="images/heavyclouds.jpg">  
+                </picture>
+                <p>Storm coming</p>
+            </div>
+            <div class="griddivs" id="divG">
+                <picture>
+                    <img class="griditems" alt="an example of heavy fog" src='images/placeholder.jpg' data-src="images/heavyfog.jpg">  
+                </picture>
+                <p>Heavy Fog</p>
+            </div>
+            <div class="griddivs" id="divH">
+                <picture>
+                    <img class="griditems" alt="weather in a storm" src='images/placeholder.jpg' data-src="images/stormy.jpg">  
+                </picture>
+                <p>Stormy</p>
+            </div>
+            <div class="griddivs" id="divI">
+                <picture>
+                    <img class="griditems" alt="example of a tornado" src='images/placeholder.jpg' data-src="images/tornado.jpg">  
+                </picture>
+                <p>Tornado</p>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <p id="footer">
+            &#xa9; Sun Idaho | Attributions | Tianna DeSpain
+        </p>
+        <div id="currentDate"></div>
+    </footer>
+    <script src="js/lazyload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script> 
+        WebFont.load({ google: { families: ['Barlow family', 'Montserrat family']}});
+      </script>
+</body>
+
+</html>

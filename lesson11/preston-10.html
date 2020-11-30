@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <title>Preston Town Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Tianna DeSpain">
+    <meta name="description" content="A weather page for Preston Idaho">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+    <div id="announcment">
+        <p id="saturday">Saturday: Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+    </div>
+    <header>
+        <img id="logo" alt="Blue shape of Idaho State infront of a yellow sun." src="images/sunidaho.jpg">
+        <h1>Sun Idaho</h1>
+        <h4 id="motto"><em>Exploring every nook and rill!</em></h4>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="menu" href="#">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="preston-10.html">Preston</a></li>
+            <li><a href="sodasripngs.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 id="title"> Preston Idaho</h2>
+        <div class="herodiv">
+            <picture>
+                <source srcset="images/wdd230_image_franklin800.jpg" media="(min-width: 500px) and (max-width: 800px)">
+                <source srcset="images/wdd230_image_franklin1100.jpg" media="(min-width: 800px)">
+                <img id="hero" alt="the rolling hills of idaho" src="images/wdd230_image_franklin500.jpg">
+            </picture>
+
+            <section class="weathersum">
+                <h3 id="weatherhead">Weather Summary</h3>
+                <hr>
+                <p class="weatherinfo">Currently: <span id="current">Sunny</span></p>
+                <p class="weatherinfo">High: <span id="high">40</span> &#8457; </p>
+                <p class="weatherinfo">Wind Chill: <span id="chill">0</span> &#8457; </p>
+                <p class="weatherinfo">Humidity: <span id="humid">60%</span></p>
+                <p class="weatherinfo">Wind Speed: <span id="speed">8</span> mph</p>
+            </section>
+        </div>
+        <div class="fiveday">
+            <h3>5 Day Forcast</h3>
+            <table>
+                <tr>
+                    <th class="days" id="oneday"> Monday </th>
+                    <th class="days" id="twoday"> Tuesday </th>
+                    <th class="days" id="threeday"> Wednesday </th>
+                    <th class="days" id="fourday"> Thursday </th>
+                    <th class="days" id="fiveday"> Friday </th>
+                </tr>
+                <tr>
+                    <td><img id="oneimg" class="weathericon" alt="small sun icon" src="images/sun.png"> <span
+                            id="onespan">40</span> &#8457;</td>
+                    <td><img id="twoimg" class="weathericon" alt="small sun icon" src="images/sun.png"> <span
+                            id="twospan">45 </span> &#8457;</td>
+                    <td><img id="threeimg" class="weathericon" alt="small sun icon" src="images/sun.png"> <span
+                            id="threespan">45 </span> &#8457;</td>
+                    <td><img id="fourimg" class="weathericon" alt="small sun icon" src="images/sun.png"> <span
+                            id="fourspan">45 </span> &#8457;</td>
+                    <td><img id="fiveimg" class="weathericon" alt="small sun icon" src="images/sun.png"> <span
+                            id="fivespan">45 </span> &#8457;</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="article"> <img id="janice" alt="A woman with short curly gray hair smiling at the camera."
+                src="images/janice.jpg">
+            <h3 id="articletitle">Article</h3>
+            <p id="byline"> By Sandra Petterson</p>
+            <p id="articlecontent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quis in excepturi
+                tempora, iusto,
+                ipsum optio quas fugit, quidem similique vero cum repellendus corporis fugiat ducimus adipisci.
+                Repellendus, sed ad? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea delectus quaerat
+                necessitatibus ullam, perspiciatis, culpa id quidem optio, earum unde officiis itaque? Animi doloremque
+                ullam maiores excepturi doloribus dolor temporibus. Lorem ipsum dolor, sit amet consectetur adipisicing
+                elit. Ad magni atque nemo vel? Expedita perferendis fuga quia aliquam pariatur quae officiis dolore,
+                repellat architecto, laboriosam quo quisquam? Deserunt, dolor non?</p>
+        </div>
+        <div class="contactinfo">
+            <img id="map" alt="map of headquarters location" src="images/map.png" />
+            <div id="contacttext">
+                <h3 id="contacttitle">Sun Idaho</h3>
+                <p id="address"> 2060 Niter Bench Rd, Grace, ID 83241</p>
+                <p class="contact"> <img class="contacticon" alt="phone icon" src="images/phone.png"> (208) 660-8063</p>
+                <p class="contact"> <img class="contacticon" alt="email icon" src="images/email.png"> sunidaho@gmail.com
+                </p>
+                <div id="socialiconsdiv">
+                    <img class="social" src="images/facebook.png" alt="Facebook Logo" />
+                    <img class="social" src="images/instagram.png" alt="Instagram Logo" />
+                    <img class="social" src="images/pinterest.png" alt="Pinterest Logo" />
+                    <img class="social" src="images/twitter.png" alt="Twitter Logo" />
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p id="sunidahofooter">
+            &#xa9; Sun Idaho | Weather data from OpenWeatherMap | Tianna DeSpain
+        </p>
+        <div id="currentDate"></div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/weatherapi.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Barlow family', 'Montserrat family']
+            }
+        });
+    </script>
+</body>
