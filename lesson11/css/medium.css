@@ -4,15 +4,19 @@
   }
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 
   h3 {
     font-size: 1.5rem;
+  }
+
+  p, ul {
+    font-size: .7rem;
   }
 
   #logo {
@@ -21,8 +25,35 @@
     padding: 10px 10px;
     max-height: 100px;
   }
+  #name,
+  #email,
+  #tel{
+    width: 50%;
+  }
+  #stormdate, 
+  #zip,
+  #stormtype,
+  #city{
+    width: 25%;
+    min-width: 170px;
+  }
+  input[list='stormtype']{
+    width: 25%;
+  }
+  .griddivs{
+   
+    max-height: 14em;
+  }
 
-
+  #gallery{
+    grid-template-columns: 1fr 1fr;
+  }
+  /* Article  box */
+  #janice,#garrett, #jessica, #henry {
+    max-width: 55%;
+    float: left;
+    margin: 1.5em 1em;
+  }
 
   /* NAV  */
 
@@ -63,19 +94,20 @@
   }
 
 
+
   /* weather box */
 
   .weathersum {
     position: absolute;
     background-color: #f3c155;
     border: 1px solid #2e6ca3;
-    padding: 1rem; 
-    box-shadow: 0 0 30px #142e46; 
-    opacity: .8; 
-    z-index: 100; 
-    width: 13em; 
-    height: 8em; 
-    margin-left: 0%; 
+    padding: 1rem;
+    box-shadow: 0 0 30px #142e46;
+    opacity: .8;
+    z-index: 100;
+    width: 13em;
+    height: 8em;
+    margin-left: 0%;
     top: 12%;
     right: 45%;
   }
@@ -128,20 +160,16 @@
   .weathericon {
     max-width: 50px;
   }
-  .article, #hero, .contactinfo{
+
+  .article,
+  #events,
+  .contactinfo {
     max-width: 95%;
   }
 
-  /* Article  box */
-  #janice {
-    max-width: 55%;
-    float: right;
-    margin: 1.5em 1em;
+  #hero {
+    width: 98%;
   }
-
-
-
-
   /* Contact box */
   .social {
     display: inline;
@@ -180,4 +208,56 @@
   #address {
     text-align: left;
   }
+
+ 
+
+  div.city {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 2rem;
+  }
+
+  div.towns div:nth-of-type(odd) p,
+  div.towns div:nth-of-type(odd) h3,
+  div.towns div:nth-of-type(odd) h2 {
+    grid-column: 1;
+  }
+
+  div.towns div:nth-of-type(even) p,
+  div.towns div:nth-of-type(oven) h3,
+  div.towns div:nth-of-type(even) h2 {
+    grid-column: 2;
+  }
+
+  div.towns div:nth-of-type(odd) img {
+    grid-column: 2;
+    grid-row: 1/10;
+    justify-self: center;
+    align-self: center;
+  }
+
+  div.towns div:nth-of-type(even) img {
+    grid-column: 1;
+    grid-row: 1/10;
+    justify-self: center;
+    align-self: center;
+  }
+
+
+  div.towns div h2 {
+    align-self: end;
+    margin: 0;
+  }
+  textarea {
+    width: 90%;
+    height: 150px;
+  }
+  #submit{
+    font-family: 'Montserrat', sans-serif;
+    width: 15%;
+    margin: 4px 25%;
+    min-width: 200px;
+  }
+  input[type='radio']{ transform: scale(1.5); }
 }

@@ -35,20 +35,20 @@
     <main>
         <div class="herodiv">
             <picture > 
-                <source  srcset="images/wdd230_image_franklin800.jpg" media="(min-width: 500px) and (max-width: 800px)">
-                <source  srcset="images/wdd230_image_franklin1100.jpg" media="(min-width: 800px)">
-                <img id="hero" alt="the rolling hills of idaho" src="images/wdd230_image_franklin500.jpg">
+                <source  srcset="images/home800.jpg" media="(min-width: 500px) and (max-width: 800px)">
+                <source  srcset="images/home1100.jpg" media="(min-width: 800px)">
+                <img id="hero" alt="the rolling hills of idaho" src="images/home500.jpg">
             </picture>
 
         </div>
-        <section>
-            <div class="towns">
-            </div>
-        </section>
-        <div class="article"> <img id="janice" alt="A woman with short curly gray hair smiling at the camera."
-                src="images/janice.jpg">
+       
+        <div class="towns">
+        </div>
+
+        <div class="article"> <img id="henry" alt="A man with a cup of coffee posing by a lake."
+                src="images/henry.jpg">
             <h2 id="articletitle">Article</h2>
-            <p id="byline"> By Jane Laura</p>
+            <p id="byline"> By Henry Johnson</p>
             <p id="articlecontent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quis in excepturi
                 tempora, iusto,
                 ipsum optio quas fugit, quidem similique vero cum repellendus corporis fugiat ducimus adipisci.
@@ -62,7 +62,7 @@
         <div class="contactinfo">
             <img id="map" alt="map of headquarters location" src="images/map.png" />
             <div id="contacttext">
-                <h2 id="contacttitle">Sun Idaho</h2>
+                <p id="contacttitle">Sun Idaho</p>
                 <p id="address"> 2060 Niter Bench Rd, Grace, ID 83241</p>
                 <p class="contact"> <img class="contacticon" alt="phone icon" src="images/phone.png"> (208) 660-8063</p>
                 <p class="contact"> <img class="contacticon" alt="email icon" src="images/email.png"> sunidaho@gmail.com
@@ -77,16 +77,15 @@
         </div>
     </main>
     <footer>
-        <p id="footer">
-            &#xa9; Sun Idaho | Attributions | <a class="wireframes" href="home-wireframe.html">Wireframes</a> | Tianna DeSpain 
+        <p id="sunidahofooter">
+            &#xa9; Sun Idaho | Weather data from OpenWeatherMap | Tianna DeSpain | <a class="wireframes" href="home-wireframe.html">Wireframes</a>
         </p>
         <div id="currentDate"></div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/script.js"></script>
     <script src="js/towns.js"></script>
     <script src="js/observe.js"></script>
-    
-
     <script>
         WebFont.load({
             google: {

@@ -18,10 +18,12 @@ var today = new Date();
 if(today.getDay() == 5){
     document.getElementById("announcment").style.display = "block";
     }
-else if(today.getDay() == 4){
+var today = new Date();
+if(today.getDay() == 4){
     document.getElementById("fhAnnouncment").style.display = "block";
     }
-else if(today.getDay() == 0){
+var today = new Date();
+if(today.getDay() == 0){
     document.getElementById("ssAnnouncment").style.display = "block";
     }
 

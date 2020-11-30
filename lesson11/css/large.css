@@ -1,4 +1,4 @@
-@media only screen and (min-width: 45em) {
+@media only screen and (min-width: 47em) {
 
   body,
   #hero {
@@ -11,18 +11,26 @@
     padding: 10px 10px 10px 130px;
     max-height: 100px;
   }
+  h1 {
+    font-size: 2.5rem;
+  }
 
-  p {
-    font-size: 18px;
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
   }
 
   main {
-    max-width: 64em;
+    max-width: 70em;
   }
 
   /* Hero box */
-  .herodiv {
-    width: 90%;
+  .herodiv,
+  .towns {
+    width: 95%;
   }
 
   #hero {
@@ -35,16 +43,18 @@
     width: 18em;
     height: 10em;
   }
+
   #current,
   #high,
   #chill,
   #humid,
   #speed,
   .weatherinfo,
-  p {
-    font-size: 20px;
+  p,
+  ul {
+    font-size: 1.15em;
   }
- 
+
   /* five day weather box */
 
   .fiveday {
@@ -61,11 +71,8 @@
 
 
   /* Article box */
-
-
-  #janice {
+  #janice, #garrett, #jessica, #henry {
     max-width: 25em;
-
   }
 
   /* Contact info box */
@@ -101,6 +108,7 @@
     display: inline-flex;
     float: left;
     width: 30%;
+    max-height: 18rem;
     margin: 1.5em;
     border: 1px solid black;
     box-shadow: 0 0 15px #142e46;
@@ -114,5 +122,28 @@
     margin-bottom: 10px;
 
   }
+  div.towns{
+    margin-top: 2em;
+    max-width: 95%;
+    margin-right:auto;
+    margin-left: auto;
+  }
+  div.towns {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 4px;
+  }
 
+  div.city {
+    display: block;
+  }
+
+  .griddivs:hover {
+    border: solid 1px #CCC;
+    box-shadow: 1px 1px 5px #999;
+  }
+
+  #gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }

@@ -9,7 +9,7 @@ fetch(requestURL)
     const towns = jsonObject['towns']; 
     for (let i = 0; i < towns.length; i++ ) {
         if(towns[i].name =="Fish Haven" || towns[i].name =="Preston" || towns[i].name =="Soda Springs") {
-            let town = document.createElement('section');
+            let town = document.createElement('div');
             let h2 = document.createElement('h2');
             let motto = document.createElement('h3')
             let yearFounded = document.createElement('p')
