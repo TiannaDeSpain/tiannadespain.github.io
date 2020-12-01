@@ -22,7 +22,7 @@ var threespan = document.getElementById("threespan")
 var fourspan = document.getElementById("fourspan")
 var fivespan = document.getElementById("fivespan")
 
-const apiURL = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=64286fe075e1c1e85b00043631a855cb&units=imperial";
+const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=64286fe075e1c1e85b00043631a855cb&units=imperial";
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
@@ -32,7 +32,7 @@ fetch(apiURL)
     humid.innerHTML = jsObject.list[0].main.humidity
     speed.innerHTML = Math.round(jsObject.list[0].wind.speed)
   });
-const apiURL2 = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=64286fe075e1c1e85b00043631a855cb&units=imperial";
+const apiURL2 = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=64286fe075e1c1e85b00043631a855cb&units=imperial";
 fetch(apiURL2)
   .then((response) => response.json())
   .then((jsObject) => {
