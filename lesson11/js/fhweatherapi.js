@@ -27,10 +27,10 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
-    high.innerHTML = Math.round(jsObject.list[0].main.temp_max)
-    current.innerHTML = jsObject.list[0].weather[0].main
-    humid.innerHTML = jsObject.list[0].main.humidity
-    speed.innerHTML = Math.round(jsObject.list[0].wind.speed)
+    high.innerHTML = Math.round(jsObject.main.temp_max)
+    current.innerHTML = jsObject.weather[0].main
+    humid.innerHTML = jsObject.main.humidity
+    speed.innerHTML = Math.round(jsObject.wind.speed)
   });
 const apiURL2 = "https://api.openweathermap.org/data/2.5/forecast?lat=42.0380399&lon=-111.4048681&appid=64286fe075e1c1e85b00043631a855cb&units=imperial";
 fetch(apiURL2)
