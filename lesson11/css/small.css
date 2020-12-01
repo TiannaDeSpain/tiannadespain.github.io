@@ -256,13 +256,17 @@ p.weatherinfo {
   padding-top: 1em;
   padding-left: 1rem;
 }
+ul{
+  list-style-type: none;
+  text-align: center;
+}
 
 #janice,
 #garrett,
 #jessica,
 #henry {
   width: 70%;
-  margin: 1.5em auto;
+  margin: 1.5em;
   box-shadow: 0 0 15px #142e46;
 }
 
@@ -512,10 +516,6 @@ fieldset {
 .imgdescription {
   margin: 12px;
   text-align: center;
-}
-
-ul {
-  padding-left: 15%
 }
 
 #welcome {

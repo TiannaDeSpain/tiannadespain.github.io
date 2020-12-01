@@ -22,7 +22,7 @@ var threespan = document.getElementById("threespan")
 var fourspan = document.getElementById("fourspan")
 var fivespan = document.getElementById("fivespan")
 
-const apiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&appid=64286fe075e1c1e85b00043631a855cb&units=imperial";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5607916&appid=64286fe075e1c1e85b00043631a855cb&units=imperial";
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
