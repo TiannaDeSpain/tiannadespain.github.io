@@ -358,12 +358,17 @@ div.towns {
 }
 
 .towns {
-  width: 100%
+  width: 100%;
+  margin-top: 1em;
 }
 
 .towns:nth-child(odd) img {
   max-width: 300px;
   grid-column: 2;
+  
+}
+div.towns img {
+  padding-bottom: 1em;
 }
 
 /* END TOWNS JSON FILE ORDERING*/

@@ -130,7 +130,7 @@
   /* TOWNS JSON FILE ORDERING*/
   div.towns {
     width: 95%;
-    margin-top: 2em;
+    margin-top: 3em;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: auto;
     grid-gap: 4px;
