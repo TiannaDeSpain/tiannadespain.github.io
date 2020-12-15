@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <title>Scoots Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Tianna DeSpain">
+    <meta name="description" content="Scoots Home Page">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <img id="logo" alt="A blue and yellow electric scooter with they typography 'Scoots'."
+            src="images/scootslogo.png">
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="menu" href="#">&#9776; Menu</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 id="welcome">Welcome to Scoots!</h2>
+        <div class="img">
+            <img id="homeimg1" alt="The east beach of Cozumel"
+                src="images/cozumelbeach.jpeg">
+            <img id="homeimg2" alt="Cozumel Beach."
+                src="images/mayanpyramid.jpeg">
+            <img id="homeimg3" alt="A veiw of a hut on the beach."
+                src="images/beachimg.jpeg">
+        </div>
+        <div id="homegrid">
+            <div class="article">
+                <h2 id="articletitle">All About Us!</h2>
+                <p id="articlecontent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis a quo iure
+                    excepturi, voluptates perferendis id consequatur nemo sapiente cupiditate porro magnam quisquam,
+                    fuga obcaecati adipisci molestias nesciunt aut. Nam. </p>
+                <div class="rentals">
+                    <a class="booking" href="reservations.html">Book Now!</a>
+                </div>
+            </div>
+            <div id="weather">
+                <section class="weathersum">
+                    <h2 id="weatherhead">Weather</h2>
+                    <p class="weatherinfo">Currently: <span id="current">Sunny</span></p>
+                    <p class="weatherinfo">High: <span id="high">40</span> &#8457; </p>
+                    <p class="weatherinfo">Wind Chill: <span id="chill">0</span> &#8457; </p>
+                    <p class="weatherinfo">Humidity: <span id="humid">60</span> %</p>
+                    <p class="weatherinfo">Wind Speed: <span id="speed">8</span> mph</p>
+                </section>
+                <h3>3 Day Forcast</h3>
+                <table>
+                    <tr>
+                        <th class="days" id="oneday"> Monday </th>
+                        <th class="days" id="twoday"> Tuesday </th>
+                        <th class="days" id="threeday"> Wednesday </th>
+                    </tr>
+                    <tr>
+                        <td><img id="oneimg" class="weathericon" alt="weather icon" src="images/placeholder.jpg"> <span
+                                id="onespan">40</span> &#8457;</td>
+                        <td><img id="twoimg" class="weathericon" alt="placeholder icon" src="images/placeholder.jpg"> <span
+                                id="twospan">45 </span> &#8457;</td>
+                        <td><img id="threeimg" class="weathericon" alt="weather placeholder" src="images/placeholder.jpg"> <span
+                                id="threespan">45 </span> &#8457;</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="contactinfo">
+            <iframe id="smallmap"
+                src="https://www.google.com/maps/d/u/0/embed?mid=1Xig5pG6lB44CUz_FVU_QfmVd54YjmP2P"></iframe>
+            <div id="contacttext">
+                <p id="contacttitle">Scoots</p>
+                <p id="address"> San Miguel de Cozumel, Quintana Roo, Mexico</p>
+                <p class="contact"> <img class="contacticon" alt="phone icon" src="images/phone.png"> (+52) (987)
+                    660-8063
+                </p>
+                <p class="contact" x> <img class="contacticon" alt="email icon" src="images/email.png">
+                    ScootsAroundCozumel@gmail.com
+                </p>
+            </div>
+            <div id="socialiconsdivhome">
+                <img class="sociallink" src="images/facebook.png" alt="Facebook Logo" />
+                <img class="sociallink" src="images/instagram.png" alt="Instagram Logo" />
+                <img class="sociallink" src="images/pinterest.png" alt="Pinterest Logo" />
+                <img class="sociallink" src="images/twitter.png" alt="Twitter Logo" />
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <p id="sunidahofooter">
+            &#xa9; Scoots | Weather data from OpenWeatherMap | Tianna DeSpain | <a class="wireframes"
+                href="home-wireframe.html">Wireframes</a>
+        </p>
+        <div id="currentDate"></div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/weatherapi.js"></script>
+
+    <script src="js/observe.js"></script>
+    <script src="js/webfontload.js"></script>
+</body>
+
+</html>

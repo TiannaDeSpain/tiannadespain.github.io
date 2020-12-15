@@ -1,0 +1,219 @@
+@media only screen and (min-width: 32.5em) {
+  body {
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+
+  #logo {
+    max-width: 15%;
+    padding: 10px 10px;
+    max-height: 100px;
+  }
+
+  #name,
+  #email,
+  #tel {
+    width: 50%;
+  }
+
+  #stormdate,
+  #zip,
+  #stormtype,
+  #city {
+    width: 25%;
+    min-width: 170px;
+  }
+
+
+
+  .griddivs {
+    max-height: 14em;
+  }
+
+  #gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* Article  box */
+  #janice,
+  #garrett,
+  #jessica,
+  #henry {
+    max-width: 52%;
+    float: left;
+    margin: 1.5em 1em;
+  }
+
+  /* NAV  */
+
+  nav ul {
+    display: flex;
+  }
+
+  nav {
+    max-width: 100%;
+  }
+
+  nav ul li {
+    flex: 1 1 100%;
+  }
+
+  .navigation {
+    display: flex;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+  }
+
+  .navigation a {
+    text-align: center;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  /* weather box */
+  #current,
+  #high,
+  #chill,
+  #humid,
+  #speed,
+  .weatherinfo,
+  p,
+  label,
+  .forminstructions {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+/* 
+  .article,
+  #events,
+  .contactinfo {
+    max-width: 95%;
+  } */
+
+  /* Contact box */
+  .social {
+    display: inline;
+  }
+
+  .contactinfo {
+    height: 300px;
+  }
+
+  .contact {
+    display: block;
+    text-align: center;
+  }
+
+  .contacticon {
+    width: 15px;
+  }
+
+  #address {
+    text-align: center;
+  }
+
+  textarea {
+    width: 90%;
+    height: 150px;
+  }
+
+  #submit {
+    font-family: 'Montserrat', sans-serif;
+    width: 15%;
+    margin: 4px 25%;
+    min-width: 200px;
+  }
+  /* tours page */
+  #tourgrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    margin-bottom: 4em;
+  }
+  /* home contact info */
+  .contactinfo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr, 1fr;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  #smallmap{
+    display:block;
+    grid-column: 2;
+    grid-row: 1/3;
+    width: 90%;
+    height: 90%;
+    margin: 1em;
+  }
+  #contacttext{
+    grid-column: 1;
+    grid-row: 1;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+   #socialiconsdivhome{
+    grid-column: 1;
+    grid-row: 2;  
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  } 
+
+  div.img {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: auto;
+    grid-gap: 1rem;
+  }
+  
+  #homeimg1{
+    grid-column: 1;
+    grid-row: 1;
+  } 
+  #homeimg2{
+    grid-column: 1;
+    grid-row: 2;
+  } 
+  #homeimg3{
+    grid-column: 1;
+    grid-row: 3;
+   }
+   .checks, .party{
+    width:30%;
+  }
+  .checks li{
+    width: 300px;
+  }
+
+.form>li>label,
+.form li p {
+  max-width: 230px;
+}
+.boxlabel, .notice {
+  font-size: .6em;
+}
+}

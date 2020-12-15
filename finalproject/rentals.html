@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <title>Scoots Rentals</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Tianna DeSpain">
+    <meta name="description" content="Scoots Rentals information for Cozumel, Mexico">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Montserrat:wght@500;600&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <img id="logo" alt="A blue and yellow electric scooter with they typography 'Scoots'."
+            src="images/scootslogo.png">
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="menu" href="#">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="rentals.html">Rentals</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 id="title">Rentals</h2>
+        <div class="rentalTable">
+            <h3>5 Day Forcast</h3>
+            <table>
+                <tr>
+                    <th class="tabletitle">Max Persons and Price Chart</th>
+                </tr>
+                <tr>
+                    <td colspan="2"> </td>
+                    <td colspan="2" class="bold"> Resertvation</td>
+                    <td colspan="2" class="bold"> Walk-In</td>
+                </tr>
+                <tr>
+                    <td class="bold">Rental Type</td>
+                    <td class="bold">Max, Persons</td>
+                    <td class="bold">Half Day (3 hrs)</td>
+                    <td class="bold">Full Day</td>
+                    <td class="bold">Half Day (3 hrs)</td>
+                    <td class="bold">Full Day</td>
+                </tr>
+            </table>
+            <ul id="rentalgrid">
+                <li class="rentaldivs">
+                    <img class="rentalimgs" src="images/beachimg.jpeg" alt="rentallocation">
+                    <h3 class="rentaltitle"> Beach Hopper rental: </h3>
+                    <p class="rentals"> This rental reaches 4 of the most beautiful locations for swimming on Cozumel! Your rental
+                        guide will help you find the perfect places on each beach to settle in for a few hours before moving
+                        to the next location. This is perfect for the beach bum inside you!</p>
+                    <a class="booking" href="reservations.html">Book Now for only $78.99!</a>
+                </li>
+                <li class="rentaldivs">
+                    <img class="rentalimgs" src="images/eastcoastbeach.jpg" alt="rentallocation">
+                    <h3 class="rentaltitle"> All inclusive Island rental: </h3>
+                    <p class="rentals"> Our most famous rental- an all inclusive 6 hour island rental. We stop at three beaches, 5
+                        different historical sites and end with a all inclusive dinner cruise to watch the sunset on the
+                        ocean. (Alchohal not included) </p>
+                        <a class="booking" href="reservations.html">Book Now for only $324.99!</a>
+                </li>
+                <li class="rentaldivs">
+                    <img class="rentalimgs" src="images/mayanpyramid.jpg" alt="rentallocation">
+                    <h3 class="rentaltitle"> Sight Seeing rental: </h3>
+                    <p class="rentals">Are you into historical sigh seeing? Then this rental is for you! We will hit 8 different
+                        historical sites such as the Maya Ruins, El Cedral (the oldest settlement on the island) and a
+                        artisan market!</p>
+                        <a class="booking" href="reservations.html">Book Now for only $56.99!</a>
+                </li>
+                <li class="rentaldivs">
+                    <img class="rentalimgs" src="images/scubadive.jpg" alt="rentallocation">
+                    <h3 class="rentaltitle"> Suba Diving rental: </h3>
+                    <p class="rentals"> Catch a glimps of the amazing hidden views around Cozumel! Our professional scooba
+                        instructors will help teach you the basics of scooba diving, and then show you around the beautiful
+                        underwater views. This is one of the most sought after rentals- so book ahead of time! </p>
+                        <a class="booking" href="reservations.html">Book Now for only $134.59!</a>
+                <li;>
+                <li class="rentaldivs">
+                    <img class="rentalimgs" src="images/dolphin.jpg" alt="rentallocation">
+                    <h3 class="rentaltitle"> Widlife Sighting: </h3>
+                    <p class="rentals"> This rental specializes in helping you find the most exotic views of the wildlife here
+                        on Cozumel. You can expect to see Dolphins, fox, coatis and hundreds of unique birds. This is a
+                        perfect rental for family fun!</p>
+                        <a class="booking" href="reservations.html">Book Now for only $67.99!</a>
+                </li>
+                <li class="rentaldivs">
+                    <img class="rentalimgs" src="images/hut.jpg" alt="rentallocation">
+                    <h3 class="rentaltitle"> Resturant Hopper rental: </h3>
+                    <p class="rentals"> Calling all foodies for a 4 and a half hour rental to each of the famous resturants on
+                        Cosumel! Enjoy the exotic foods and ambiances of local resturants. Total of 6
+                        different resturants and bars. (Food and drinks not included)</p>
+                        <a class="booking" href="reservations.html">Book Now for only $37.99!</a>
+                </li>
+            </ul>
+    </main>
+    <footer>
+        <p id="sunidahofooter">
+            &#xa9; Sun Idaho | Weather data from OpenWeatherMap | Tianna DeSpain
+        </p>
+        <div id="currentDate"></div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="js/rentals.js"></script>
+    <script src="js/webfontload.js"></script>
+</body>
