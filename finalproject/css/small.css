@@ -1,6 +1,6 @@
 /* colors: 
   gray: #989997  989997
-  red: #eb8987
+  red: #f58482
   yellow: #ffe066
   blue: #247ba0
   teal: #70c1b3
@@ -449,7 +449,7 @@ img[data-src] {
 }
 
 form {
-  background-color: #eb8987;
+  background-color: #f58482;
   padding: 3rem;
   margin-bottom: 2rem;
   padding-top: 0px;
@@ -577,7 +577,7 @@ td {
 table,
 th,
 td {
-  border: 3px solid #eb8987;
+  border: 3px solid #f58482;
   border-collapse: collapse;
   background-color: #c1c2c1;
 }
@@ -598,12 +598,12 @@ table {
 }
 
 /* Tour Page */
-.tourdivs {
+.tourdivs, .rentaldivs {
   background-color: #f58482;
   padding: 2em;
 }
 
-#tourgrid {
+#tourgrid, #rentalgrid{
   display: block;
 }
 
@@ -611,24 +611,12 @@ table {
   display: grid;
 }
 
-/* Tour Page */
-.tourdivs {
-  background-color: #f58482;
-  padding: 2em;
-}
 
-#tourgrid {
-  display: block;
-}
-
-.contactinfo {
-  display: grid;
-}
 #smallmap {
   display: none;
 }
 #reservationinfo{
-  background: #eb8987;
+  background: #f58482;
   padding:2rem;
   margin-bottom:-10px;
 }

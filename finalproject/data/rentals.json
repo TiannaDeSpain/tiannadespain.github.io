@@ -5,7 +5,9 @@
       "ReservationsHalf": "$20 ",
       "ReservationsWhole": "$30 ",
       "WalkHalf": "$25 ",
-      "WalkWhole": "$35 "
+      "WalkWhole": "$35 ",
+      "id": "metro"
+
     },
     {
       "RentalType": "~Honda Dio Scooter",
@@ -13,7 +15,8 @@
       "ReservationsHalf": "$30 ",
       "ReservationsWhole": "$40 ",
       "WalkHalf": "$35 ",
-      "WalkWhole": "$45 "
+      "WalkWhole": "$45 ",
+      "id": "dio"
     },
     {
       "RentalType": "~Honda PCX150 Scooter",
@@ -21,7 +24,8 @@
       "ReservationsHalf": "$40 ",
       "ReservationsWhole": "$50 ",
       "WalkHalf": "$45 ",
-      "WalkWhole": "$55 "
+      "WalkWhole": "$55 ",
+      "id": "pc"
     },
     {
       "RentalType": "Honda Pioneer ATV",
@@ -29,7 +33,8 @@
       "ReservationsHalf": "$50 ",
       "ReservationsWhole": "$70 ",
       "WalkHalf": "$60 ",
-      "WalkWhole": "$80 "
+      "WalkWhole": "$80 ",
+      "id": "atv"
     },
     {
       "RentalType": "Jeep Wrangler - 4 door with a/c",
@@ -37,7 +42,8 @@
       "ReservationsHalf": "$70 ",
       "ReservationsWhole": "$100 ",
       "WalkHalf": "$85 ",
-      "WalkWhole": "$125 "
+      "WalkWhole": "$125 ",
+      "id": "four"
     },
     {
       "RentalType": "Jeep Wrangler - 2 door",
@@ -45,6 +51,7 @@
       "ReservationsHalf": "$60 ",
       "ReservationsWhole": "$85 ",
       "WalkHalf": "$70 ",
-      "WalkWhole": "$90 "
+      "WalkWhole": "$90 ",
+      "id": "two"
     }
    ]
