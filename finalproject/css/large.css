@@ -71,6 +71,7 @@
     width: 100%;
   }
 
+ 
   #socialiconsdivhome {
     width: 100%;
     margin-right: auto;
@@ -124,33 +125,6 @@
 
   /* End Contact info box */
 
-  /* TOWNS JSON FILE ORDERING*/
-  div.img {
-    width: 90%;
-    height: 10em;
-    grid-template-rows: auto;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  #homeimg1 {
-    grid-column: 1;
-    grid-row: 1;
-  }
-
-  #homeimg2 {
-    display: block;
-    grid-column: 2;
-    grid-row: 1;
-  }
-
-  #homeimg3 {
-    display: block;
-    grid-column: 3;
-    grid-row: 1;
-  }
-
-  /* END TOWNS JSON FILE ORDERING*/
 
   .griddivs:hover {
     border: solid 1px #CCC;

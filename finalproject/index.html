@@ -33,11 +33,14 @@
         </ul>
     </nav>
     <main>
-        <h1 id="welcome">Welcome to Scoots!</h1>
+        <h1 id="welcome">Welcome to Scoots</h1>
+        <h2 id="slogan"> Your adventure begins now!</h2>
         <div class="img">
-            <img id="homeimg1" alt="The east beach of Cozumel" src="images/cozumelbeach.jpeg">
-            <img id="homeimg2" alt="Cozumel Beach." src="images/mayanpyramid.jpeg">
-            <img id="homeimg3" alt="A veiw of a hut on the beach." src="images/beachimg.jpeg">
+            <picture id="homeimg1">
+                <source srcset="images/cozhero800.jpg" media="(min-width: 500px) and (max-width: 800px)">
+                <source srcset="images/cozhero1200.jpg" media="(min-width: 800px)">
+                <img  alt="The east beach of Cozumel" src="images/cozhero500.jpg">
+            </picture>
         </div>
         <div id="homegrid">
             <div class="article">
@@ -87,6 +90,13 @@
                     </tr>
                 </table>
             </div>
+        </div>
+        <div class="img">
+            <picture id="homeimg1">
+                <source srcset="images/ctrees800.jpg" media="(min-width: 500px) and (max-width: 800px)">
+                <source srcset="images/ctrees1200.jpg" media="(min-width: 800px)">
+                <img  alt="The east beach of Cozumel" src="images/ctrees500.jpg">
+            </picture>
         </div>
         <div class="contactinfo">
             <iframe id="smallmap"

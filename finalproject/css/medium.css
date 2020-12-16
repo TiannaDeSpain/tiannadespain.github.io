@@ -125,10 +125,14 @@
   }
 
   #submit {
-    font-family: 'Montserrat', sans-serif;
     width: 15%;
     margin: 4px auto;
     min-width: 200px;
+  }
+  #button{
+    width: 150px;
+    margin:auto;
+    margin-bottom: 2em;
   }
 
   /* tours page */
@@ -189,18 +193,6 @@
     margin: 1em auto;
   }
 
-  #homeimg1 {
-    grid-column: 1;
-    grid-row: 1;
-  }
-
-  #homeimg2 {
-    display:none;
-  }
-
-  #homeimg3 {
-    display:none;
-  }
 
   .checks,
   .party {
@@ -220,7 +212,7 @@
   form {
   max-width: 90%;
   margin: 0 auto;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   
   }
   .boxlabel,
