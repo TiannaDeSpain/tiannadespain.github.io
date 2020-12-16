@@ -13,8 +13,7 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <link rel="shortcut icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Montserrat:wght@500;600&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap" rel="stylesheet">
 
 </head>
 
@@ -34,9 +33,25 @@
         </ul>
     </nav>
     <main>
-        <h2 id="title">Rentals</h2>
+        <h1 id="title">Scooter and Vehicle Rental Information</h1>
+        <div class="services">
+            <h2>
+                Information and Services</h2>
+            <ul class="infoandservices">
+                <li>A $50 security deposit is required to confirm reservations.</li>
+                <li>A valid drivers license is required in hand at time of rental.</li>
+                <li>No one under 12 years of age are allowed to ride on the scooters.</li>
+                <li>Fuel charge not included.</li>
+                <li>Unlimited mileage.</li>
+                <li>Liability insurance is free of charge.</li>
+                <li>Reservations rate requires 24 hour prior notification.</li>
+                <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
+                <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
+                <li>Rentals may be returned to either location.</li>
+            </ul>
+        </div>
         <div class="rentalTable">
-            <h3>5 Day Forcast</h3>
+            <h2 id="rentalpricing">Rental Pricing: </h2>
             <table id="rentalsTable">
                 <tr>
                     <th class="tabletitle" colspan="6">Max Persons and Price Chart</th>
@@ -48,7 +63,7 @@
                 </tr>
                 <tr>
                     <td class="bold">Rental Type</td>
-                    <td class="bold">Max, Persons</td>
+                    <td class="bold">Max Persons</td>
                     <td class="bold">Half Day (3 hrs)</td>
                     <td class="bold">Full Day</td>
                     <td class="bold">Half Day (3 hrs)</td>
@@ -59,41 +74,53 @@
                 <li class="rentaldivs">
                     <img class="rentalimgs" src="images/placeholder.jpg" alt="rentallocation">
                     <h3 class="rentaltitle">Honda Metro Scooter</h3>
-                    <p class="rentals"> Honda Metropolitan (49cc) - 1 person</p>
+                    <p class="rentals"> Honda Metropolitan (49cc)</p>
+                    <p class="rentals"> - 1 person</p>
                     <a class="booking" id="metro" href="reservations.html">Book Now for only</a>
                 </li>
                 <li class="rentaldivs">
                     <img class="rentalimgs" src="images/placeholder.jpg" alt="rentallocation">
-                    <h3 class="rentaltitle"> Honda Dio Scooter: </h3>
+                    <h3 class="rentaltitle"> Honda Dio Scooter</h3>
+                    <p class="rentals">Honda Dio (110cc)</p>
+                    <p class="rentals"> - 2 person</p>
                     <a class="booking" id="dio" href="reservations.html">Book Now for only</a>
                 </li>
                 <li class="rentaldivs">
                     <img class="rentalimgs" src="images/placeholder.jpg" alt="rentallocation">
-                    <h3 class="rentaltitle"> Honda PCX150 Scooter: </h3>
+                    <h3 class="rentaltitle"> Honda PCX150 Scooter</h3>
+                    <p class="rentals">Honda PCX150 (149cc)</p>
+                    <p class="rentals">- 2 person</p>
                     <a class="booking" id="pc" href="reservations.html">Book Now for only</a>
                 </li>
                 <li class="rentaldivs">
                     <img class="rentalimgs" src="images/placeholder.jpg" alt="rentallocation">
-                    <h3 class="rentaltitle"> Honda Pioneer ATV: </h3>
+                    <h3 class="rentaltitle"> Honda Pioneer ATV</h3>
+                    <p class="rentals">Honda Pioneer 1000</p>
                     <a class="booking" id="atv" href="reservations.html">Book Now for only</a>
                 </li>
                 <li class="rentaldivs">
                     <img class="rentalimgs" src="images/placeholder.jpg" alt="rentallocation">
-                    <h3 class="rentaltitle"> Jeep Wrangler - 4 door with a/c: </h3>
-
+                    <h3 class="rentaltitle"> Jeep Wrangler - 4 door</h3>
+                    <p class="rentals">4-door Jeep Wrangler</p>
+                    <p class="rentals"> - manual with A/C</p>
+                    <p class="rentals"> - 5 people max</p>
                     <a class="booking" id="four" href="reservations.html">Book Now for only</a>
                 </li>
                 <li class="rentaldivs">
                     <img class="rentalimgs" src="images/placeholder.jpg" alt="rentallocation">
-                    <h3 class="rentaltitle"> Jeep Wrangler - 2 door </h3>
-
+                    <h3 class="rentaltitle"> Jeep Wrangler - 2 door</h3>
+                    <p class="rentals">2-door Jeep Wrangler</p>
+                    <p class="rentals"> - open air</p>
+                    <p class="rentals"> - manual</p>
+                    <p class="rentals"> - 4 people max</p>
                     <a class="booking" id="two" href="reservations.html">Book Now for only</a>
                 </li>
             </ul>
     </main>
     <footer>
-        <p id="sunidahofooter">
-            &#xa9; Sun Idaho | Weather data from OpenWeatherMap | Tianna DeSpain
+        <p id="scootsfooter">
+            &#xa9; Scoots | Weather data from OpenWeatherMap | Tianna DeSpain | <a class="wireframes"
+                href="home-wireframe.html">Wireframes</a>
         </p>
         <div id="currentDate"></div>
     </footer>

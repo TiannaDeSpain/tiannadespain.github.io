@@ -29,6 +29,13 @@ $.getJSON("https://tiannadespain.github.io/finalproject/data/rentals.json", func
     tr.appendChild(WalkWhole);
 
     table.appendChild(tr)
-    
+
+    let link = document.getElementById(item.id)
+
+    let text = link.textContent
+    text = text + " " + item.ReservationsHalf + "!"
+    link.textContent = text
+
+   
   }
 });

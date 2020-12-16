@@ -13,8 +13,7 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <link rel="shortcut icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Montserrat:wght@500;600&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap" rel="stylesheet">
 
 </head>
 
@@ -34,22 +33,34 @@
         </ul>
     </nav>
     <main>
-        <h2 id="title">Rental Agreement Form</h2>
+        <h1 id="title">Rental Agreement Form</h1>
         <div id="reservationinfo">
             <p class="forminstructions">Please enter the following information to book your reservations:</p>
             <p class="notice">*Astric indicates a required field.</p>
             <p class="notice">**For a party greater than 10 please contact us directly.</p>
         </div>
 
-        <form action="thanks.html">
+        <form action="confirmation.html">
             <ul class="form">
                 <li>
                     <label for="dateofres">*Select your date</label>
-                    <input type="date" id="reservationdate"  required name="date">
+                    <input type="date" id="reservationdate" required name="date">
                 </li>
                 <li>
-                    <label for="period">Booking Period <br> (season of reservation)</label>
-                    <input type="text" id="period" placeholder="Enter period here">
+                    <label for="number">*Number of Guests</label>
+                    <select required id="number">
+                        <option value="0">Select:</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
                 </li>
                 <li>
                     <label for="fullname">*Name</label>
@@ -58,11 +69,12 @@
                 <li>
                     <label for="email">*Email</label>
                     <input type="email" id="emailaddress" required placeholder="Example@gmail.com">
-                </div>
+                    </div>
                 </li>
                 <li>
                     <label for="phone">*Phone Number</label>
-                    <input type="tel" id="phone" placeholder="Format (99-123-456-7890)"required pattern="[0-9]{2}-[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    <input type="tel" id="phone" placeholder="Format (99-123-456-7890)" required
+                        pattern="[0-9]{2}-[0-9]{3}-[0-9]{3}-[0-9]{4}">
 
                 </li>
                 <li>
@@ -74,7 +86,11 @@
                     <input rows="1" id="cruise" placeholder="Enter cruise line here"></input>
                 </li>
                 <li>
-                    <label for="message">Additional Notes <br>(such as location of drop off request if needed)</label>
+                    <label for="period">Booking Period <br> (season of reservation)</label>
+                    <input type="text" id="period" placeholder="Enter period here">
+                </li>
+                <li>
+                    <label for="message">Additional Notes <br> (such as location of drop off request if needed)</label>
                     <textarea rows="6" id="message" placeholder="Type your message here"></textarea>
                 </li>
                 <li>
@@ -107,60 +123,15 @@
                     </ul>
                 </li>
                 <li>
-                    <p>*Party Size <br> (number of guests)</p>
-                    <ul class="party">
-                        <li>
-                            <input type="checkbox" class="box" id="one">
-                            <label for="one" class="boxlabel">1</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" class="box" id="two">
-                            <label for="two" class="boxlabel">2</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" class="box" id="three">
-                            <label for="three" class="boxlabel">3</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" class="box" id="four">
-                            <label for="four" class="boxlabel">4</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" class="box" id="five">
-                            <label for="five" class="boxlabel">5</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" class="box" id="six">
-                            <label for="six" class="boxlabel">6</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" class="box" id="seven">
-                            <label for="seven" class="boxlabel">7</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" class="box" id="eight">
-                            <label for="eight" class="boxlabel">8</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" class="box" id="nine">
-                            <label for="nine" class="boxlabel">9</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" class="box" id="ten">
-                            <label for="ten" class="boxlabel">10</label>
-                        </li>
-                    </ul>
-                </li>
-             
-                <li>
                     <input type="submit" id="submit" value="Submit">
                 </li>
             </ul>
         </form>
     </main>
     <footer>
-        <p id="sunidahofooter">
-            &#xa9; Scoots | Attributions | Tianna DeSpain
+        <p id="scootsfooter">
+            &#xa9; Scoots | Weather data from OpenWeatherMap | Tianna DeSpain | <a class="wireframes"
+                href="home-wireframe.html">Wireframes</a>
         </p>
         <div id="currentDate"></div>
     </footer>
