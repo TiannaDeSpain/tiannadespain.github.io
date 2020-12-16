@@ -151,7 +151,7 @@
   .contactinfo {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr, 1fr;
+    grid-template-rows: 1fr 1fr;
     justify-content: center;
     align-items: center;
     column-gap: 1em;
@@ -175,9 +175,7 @@
     align-items: center;
     width: 100%;
   }
-  #contacttitle{
-    padding-top: 1.8em;
-  }
+
 
   #socialiconsdivhome {
     grid-column: 1;

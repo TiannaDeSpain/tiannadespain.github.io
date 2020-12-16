@@ -44,13 +44,13 @@
             </div>
             <ul class="form">
                 <li>
-                    <label for="dateofres">*Dates of Reservation</label>
+                    <label for="reservationdate">*Dates of Reservation</label>
                     <input type="date" id="reservationdate" required name="date">
                 </li>
                 <li>
                     <label for="number">*Number of Guests</label>
                     <select required id="number">
-                        <option value="0">Select:</option>
+                        <option value="">Select:</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -68,9 +68,8 @@
                     <input type="text" id="fullname" required placeholder="Enter your full name here">
                 </li>
                 <li>
-                    <label for="email">*Email</label>
+                    <label for="emailaddress">*Email</label>
                     <input type="email" id="emailaddress" required placeholder="Example@gmail.com">
-                    </div>
                 </li>
                 <li>
                     <label for="phone">*Phone Number</label>
@@ -80,11 +79,11 @@
                 </li>
                 <li>
                     <label for="homecontry"> *Home Country <br> (if in USA please include state)</label>
-                    <input rows="1" id="homecontry" required placeholder="Enter home country here"></input>
+                    <input id="homecontry" required placeholder="Enter home country here">
                 </li>
                 <li>
                     <label for="cruise">Cruise Line <br>(if applicable)</label>
-                    <input rows="1" id="cruise" placeholder="Enter cruise line here"></input>
+                    <input id="cruise" placeholder="Enter cruise line here">
                 </li>
                 <li>
                     <label for="period">Booking Period <br> (season of reservation)</label>

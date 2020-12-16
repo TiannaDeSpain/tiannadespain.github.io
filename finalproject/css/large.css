@@ -58,7 +58,7 @@
     max-width: 90%;
     height: 20em;
     display: grid;
-    grid-template-columns: 50%, 50%;
+    grid-template-columns: 50% 50%;
     margin: 2em auto;
     margin-bottom: 4em;
     column-gap: 1em;
@@ -104,11 +104,12 @@
     max-width: 50%;
   }
 
+
   .contact {
     display: block;
     text-align: center;
     width: 80%;
-    margin: 10px, auto;
+    margin: 10px auto;
   }
 
   #handle {
@@ -166,11 +167,6 @@
     width: 100%;
   }
 
-  /* #homeimg1,
-  #homeimg2,
-  #homeimg3 {
-    width: 30em;
-  } */
 
   input.box {
     width: 1em;
