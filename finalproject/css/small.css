@@ -1,6 +1,5 @@
 /* colors: 
   gray: #989997  989997
-  red: #f58482
   yellow: #ffe066
   blue: #247ba0
   teal: #70c1b3
@@ -189,9 +188,12 @@ a {
   color: #ffe066;
   font-weight: 700;
 }
-
+#submit{
+  background-color: #247ba0;
+  color:#ffe066;
+}
 #submit:hover,
-a:hover {
+a:hover,{
   color: black;
   background-color: #ffe066;
 }
@@ -235,16 +237,18 @@ h2 {
   height: 175px;
   width: 90%;
 }
+.weathersum{
+  padding-bottom: 2em;
+}
 
-
-#events,
 .contactinfo,
 #homegrid {
-  margin: 10px auto;
+  box-shadow: 0 0 10px #142e46;
+  margin: 3em auto;
+  margin-top: 3em
 }
 
 .article,
-#events,
 .contactinfo,
 #weather {
   display: block;
@@ -255,7 +259,6 @@ h2 {
 
 /* Article Box */
 .article,
-#events,
 #weather {
   background-color: #ffe066;
   z-index: 1;
@@ -327,7 +330,7 @@ ul {
 
 .contactinfo {
   height: 270px;
-  background-color: #f58482;
+  background-color: white;
   margin-bottom: 1rem;
 }
 
@@ -374,12 +377,10 @@ ul {
 div.img {
   display: grid;
   grid-gap: 1px;
-  max-width: 90%;
-  overflow:hidden;
+  overflow: hidden;
   border: 1px solid black;
   box-shadow: 0 0 10px #142e46;
   background-color: black;
-  margin: 1em auto;
 }
 
 #homeimg1 {
@@ -517,7 +518,7 @@ td {
 table,
 th,
 td {
-  border: 3px solid #f58482;
+  border: 3px solid white;
   border-collapse: collapse;
   background-color: #c1c2c1;
 }
@@ -540,7 +541,7 @@ table {
 
 /* Tour Page */
 .tourdivs, .rentaldivs {
-  background-color: #f58482;
+  background-color: white;
   padding: 2em;
   text-align: center; 
   border: 1px solid black;
@@ -569,32 +570,32 @@ p.tours, p.rentals{
   justify-content: center;
   align-items: center;
   text-align: center;
+  box-shadow: 0 0 10px #142e46;
 }
 #smallmap {
   display: none;
 }
 #reservationinfo{
-  background: #f58482;
-  margin-bottom: -20px;
+  background: white;
   padding-bottom: 3px;
   padding-top: 2em;
-  border: 1px solid black;
-
   border-bottom: none;
   z-index: 100;
+  
 }
 
 /* rentals page */
 .infoandservices{
   text-align: left;
   margin-left: 1em;
+  margin-right: 1em;
 }
 .services{
   background-color: #ffe066;
   border: 1px solid black;
   box-shadow: 0 0 10px #142e46;
   width: 80%;
-  margin: 1em auto;
+  margin: 1em auto 3em;
 }
 .services h2{
   font-size: 1.5rem;
@@ -607,13 +608,14 @@ p.tours, p.rentals{
   margin: 0 auto;
 }
 form {
-  background-color: #f58482;
+  background-color: white;
   margin-bottom: 2em;
   padding-bottom: 1em;
   padding-top: 0px;
   margin-top:0px;
   width:100%;
   border: 1px solid black;
+  box-shadow: 0 0 10px #142e46;
   border-top: none;
   z-index: -1;
 
@@ -630,4 +632,29 @@ td.bold{
 #tourgrid{
   margin-top: 0;
   padding-top:0;
+}
+
+.tourimgs, #rentalsimgs{
+  display: block;
+  margin-top: 1em;
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+.rentalslink{
+  display:inline;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: black;
+  width: auto;
+  text-decoration: underline;
+  border-radius: 3px;
+  padding: 2.5px;
+}
+.rentalslink:hover{
+  color: #ffe066;
+  background-color: #247ba0;
+}
+
+.article, #weather{
+  margin-bottom: 0;
 }

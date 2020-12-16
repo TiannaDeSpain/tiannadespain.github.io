@@ -139,11 +139,13 @@
   }
 
   #homeimg2 {
+    display: block;
     grid-column: 2;
     grid-row: 1;
   }
 
   #homeimg3 {
+    display: block;
     grid-column: 3;
     grid-row: 1;
   }
@@ -164,8 +166,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 90%;
-    margin: auto;
-
   }
 
   .contactinfo {
@@ -232,5 +232,10 @@
   #tourgrid{
     margin-top: 0;
     padding-top:0;
+    overflow: hidden;
+  }
+  .tourimgs{
+    max-height: 200px;
+    overflow: hidden;
   }
 }
