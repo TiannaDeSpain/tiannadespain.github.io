@@ -186,13 +186,13 @@ a {
   text-align: left;
   text-decoration: none;
   font-size: 1em;
-  color: white;
+  color: ;
   font-weight: 700;
 }
 #submit, #return{
   font-family: 'Oswald', sans-serif;
   background-color: #247ba0;
-  color:white;
+  color:;
   font-size: 1em;
   border: none;
   box-shadow: 0 0 10px #142e46;
@@ -515,7 +515,7 @@ td {
 table,
 th,
 td {
-  border: 3px solid white;
+  border: 3px solid ;
   border-collapse: collapse;
   background-color: #c1c2c1;
 }
@@ -614,7 +614,7 @@ p.tours, p.rentals{
   
 }
 form {
-  background-color: ;
+  background-color: white;
   margin-bottom: 2em;
   padding-bottom: 1em;
   padding-top: 0px;
