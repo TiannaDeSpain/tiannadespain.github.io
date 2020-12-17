@@ -515,7 +515,7 @@ td {
 table,
 th,
 td {
-  border: 3px solid ;
+  border: 3px solid white;
   border-collapse: collapse;
   background-color: #c1c2c1;
 }
