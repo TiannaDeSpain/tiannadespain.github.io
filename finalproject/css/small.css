@@ -43,14 +43,17 @@ ul {
   font-family: 'Open Sans', sans-serif;
 }
 
-input, textarea, select{
+input,
+textarea,
+select {
   line-height: 2em;
   margin: 4px;
 }
 
-.boxlabel{
+.boxlabel {
   font-size: 12px;
 }
+
 a {
   padding: 3px;
   font-size: 15px;
@@ -189,7 +192,9 @@ a {
   color: white;
   font-weight: 700;
 }
-#submit, #return{
+
+#submit,
+#return {
   font-family: 'Open Sans', sans-serif;
   background-color: #247ba0;
   color: white;
@@ -197,14 +202,18 @@ a {
   border: none;
   box-shadow: 0 0 10px #142e46;
 }
-#button{
+
+#button {
   margin-bottom: 2em;
 }
-#return{
+
+#return {
   text-align: center;
 }
+
 #submit:hover,
-a:hover, #return:hover{
+a:hover,
+#return:hover {
   color: black;
   background-color: #ffe066;
 }
@@ -248,7 +257,8 @@ h2 {
   height: 175px;
   width: 90%;
 }
-.weathersum{
+
+.weathersum {
   padding-bottom: 2em;
 }
 
@@ -275,10 +285,12 @@ h2 {
   z-index: 1;
 }
 
-#homebookbutton{ 
+#homebookbutton {
   margin: 2em;
 }
-#articlecontent, #essentiallist {
+
+#articlecontent,
+#essentiallist {
   text-align: left;
   list-style-type: disc;
   padding: .5em 3em;
@@ -302,7 +314,7 @@ ul {
   display: block;
 }
 
-.contactpagetext{
+.contactpagetext {
   background-color: #ffe066;
   border: 1px solid black;
   box-shadow: 0 0 10px #142e46;
@@ -323,11 +335,17 @@ ul {
 
 .sociallink {
   display: inline-block;
-  width: 20%;
+  width: 100%;
+}
+
+.circles {
+  display: inline-block;
+  width: auto;
+  padding: 0px;
 }
 
 #socialiconsdiv {
-  width: 250px;
+  width: 270px;
   margin: auto;
   max-width: 90%;
   padding: 1.3em;
@@ -335,6 +353,7 @@ ul {
 
 #socialiconsdivhome {
   margin-right: 2em;
+  width: 150px;
   margin-left: 2em;
   text-align: center;
 }
@@ -344,9 +363,11 @@ ul {
   background-color: white;
   margin-bottom: 2rem;
 }
-#contactsectiontitle{
+
+#contactsectiontitle {
   padding-top: 2em;
 }
+
 .contacttitle {
   font-size: 1.5rem;
   font-weight: 600;
@@ -386,6 +407,7 @@ ul {
   border: 1px solid black;
   border-radius: 3px;
 }
+
 /* Home Images */
 div.img {
   border: 1px solid black;
@@ -396,6 +418,7 @@ div.img {
 div {
   margin-bottom: 2rem;
 }
+
 /* END TOWNS JSON FILE ORDERING*/
 
 img[data-src] {
@@ -407,8 +430,9 @@ img[data-src] {
   padding-left: .5em;
   text-align: center;
 }
-.forminstructions{
-  text-align:center;
+
+.forminstructions {
+  text-align: center;
 }
 
 #title {
@@ -426,7 +450,8 @@ img[data-src] {
 }
 
 .form li,
-.checks, select {
+.checks,
+select {
   display: flex;
   flex-wrap: wrap;
   padding-right: 1em;
@@ -440,7 +465,8 @@ img[data-src] {
 }
 
 .form>li>label+*,
-.checks, select{
+.checks,
+select {
   flex: 1 0 220px;
 }
 
@@ -455,13 +481,14 @@ img[data-src] {
   border-radius: 2px;
 }
 
-.checks li{
+.checks li {
   width: 50%;
 }
 
-.checks{
-  width:50%;
+.checks {
+  width: 50%;
 }
+
 input.box {
   width: 1.25em;
   height: 1.25em;
@@ -498,7 +525,8 @@ fieldset {
   text-align: center;
   font-weight: 500;
 }
-#slogan{
+
+#slogan {
   text-align: center;
   margin-bottom: 2em;
 }
@@ -539,15 +567,17 @@ table {
 }
 
 /* Tour Page */
-.tourdivs, .rentaldivs {
+.tourdivs,
+.rentaldivs {
   background-color: #ffe066;
   padding: 2em;
-  text-align: center; 
+  text-align: center;
   border: 1px solid black;
   box-shadow: 0 0 10px #142e46;
 }
 
-#tourgrid, #rentalgrid{
+#tourgrid,
+#rentalgrid {
   display: block;
   padding: 1em;
 }
@@ -555,7 +585,9 @@ table {
 .contactinfo {
   display: grid;
 }
-p.tours, p.rentals{
+
+p.tours,
+p.rentals {
   text-align: left;
 }
 
@@ -568,87 +600,99 @@ p.tours, p.rentals{
   padding: .75rem;
   text-decoration: none;
   justify-content: center;
-  align-items: center;     
+  align-items: center;
   text-align: center;
   box-shadow: 0 0 10px #142e46;
 }
+
 #smallmap {
   display: none;
 }
-#reservationinfo{
+
+#reservationinfo {
   background: white;
   padding-bottom: 3px;
   padding-top: 2em;
   border-bottom: none;
   z-index: 100;
-  
+
 }
 
 /* rentals page */
-.infoandservices{
+.infoandservices {
   text-align: left;
   margin-left: 1em;
   margin-right: 1em;
 }
-.services, .essential{
+
+.services,
+.essential {
   background-color: #ffe066;
   border: 1px solid black;
   box-shadow: 0 0 10px #142e46;
   width: 80%;
   margin: 1em auto 2em;
 }
-.services h2{
+
+.services h2 {
   font-size: 1.5rem;
   text-align: center;
 }
 
-.essential{ 
+.essential {
   margin-top: 2em;
   margin-bottom: 2em;
   background-color: #bfc0bd;
   width: 90%;
 }
 
-#contactusform{
+#contactusform {
   padding: 1em;
   width: 80%;
   margin: 0 auto;
-  
+
 }
+
 form {
   background-color: white;
   margin-bottom: 2em;
   padding-bottom: 1em;
   padding-top: 0px;
-  margin-top:0px;
-  width:100%;
+  margin-top: 0px;
+  width: 100%;
   border: 1px solid black;
   box-shadow: 0 0 10px #142e46;
   border-top: none;
   z-index: -1;
 }
-th.tabletitle{
+
+th.tabletitle {
   font-size: 1em;
 }
-td.bold{
+
+td.bold {
   font-size: .75em;
 }
-#rentalpricing{
+
+#rentalpricing {
   text-align: center;
 }
-#tourgrid{
+
+#tourgrid {
   margin-top: 0;
-  padding-top:0;
+  padding-top: 0;
 }
 
-.tourimgs, #rentalsimgs{
+.tourimgs,
+#rentalsimgs {
   display: block;
   margin-top: 1em;
   filter: blur(0em);
   transition: filter 0.5s;
 }
-.rentalslink{
-  display:inline;
+
+.rentalslink {
+  display: inline;
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   color: black;
@@ -657,11 +701,13 @@ td.bold{
   border-radius: 3px;
   padding: 2.5px;
 }
-.rentalslink:hover{
+
+.rentalslink:hover {
   color: #ffe066;
   background-color: #247ba0;
 }
 
-.article, #weather{
+.article,
+#weather {
   margin-bottom: 0;
 }

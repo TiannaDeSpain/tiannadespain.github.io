@@ -91,18 +91,17 @@
     font-family: 'Open Sans', sans-serif;
   }
 
-
-  .contactinfo {
-  max-width: 90%;}
-
-
   /* Contact box */
   .social {
     display: inline;
-    max-width: 23%;
+  }
+
+  .circles {
+    padding: 0px;
   }
 
   .contactinfo {
+    max-width: 90%;
     height: 300px;
   }
 
@@ -129,9 +128,10 @@
     margin: 4px auto;
     min-width: 200px;
   }
-  #button{
+
+  #button {
     width: 150px;
-    margin:auto;
+    margin: auto;
     margin-bottom: 2em;
   }
 
@@ -180,7 +180,6 @@
   #socialiconsdivhome {
     grid-column: 1;
     grid-row: 2;
-    width: auto;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -208,11 +207,12 @@
 
 
   form {
-  max-width: 90%;
-  margin: 0 auto;
-  margin-bottom: 2em;
-  
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+
   }
+
   .boxlabel,
   .notice {
     font-size: .6em;
@@ -225,27 +225,33 @@
   .services {
     padding: 2em;
   }
-  #reservationinfo{
+
+  #reservationinfo {
     max-width: 90%;
-    margin: 1em  auto -20px auto;
+    margin: 1em auto -20px auto;
   }
+
   #contactpageform {
     max-width: 90%;
     margin: auto auto;
     margin-bottom: 1em;
     padding-bottom: 0px;
   }
-  th.tabletitle{
+
+  th.tabletitle {
     font-size: 1.5em;
   }
-  td.bold{
+
+  td.bold {
     font-size: 1em;
   }
-  #tourgrid{
+
+  #tourgrid {
     margin-top: 0;
-    padding-top:0;
+    padding-top: 0;
   }
-  .tourimgs{
+
+  .tourimgs {
     height: 200px;
   }
 }
