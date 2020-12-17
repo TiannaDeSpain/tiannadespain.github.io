@@ -82,7 +82,7 @@ legend {
 
 h3,
 #address,
-#contacttitle,
+.contacttitle,
 footer,
 #title {
   text-align: center;
@@ -344,8 +344,10 @@ ul {
   background-color: white;
   margin-bottom: 2rem;
 }
-
-#contacttitle {
+#contactsectiontitle{
+  padding-top: 2em;
+}
+.contacttitle {
   font-size: 1.5rem;
   font-weight: 600;
   font-family: 'Oswald', sans-serif;
@@ -566,7 +568,7 @@ p.tours, p.rentals{
   padding: .75rem;
   text-decoration: none;
   justify-content: center;
-  align-items: center;
+  align-items: center;     
   text-align: center;
   box-shadow: 0 0 10px #142e46;
 }
